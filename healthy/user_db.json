@@ -1,0 +1,16 @@
+[
+    {
+        "username": "ana",
+        "email": "string",
+        "height": 0.0,
+        "weight": 0.0,
+        "birthdate": "1990-01-01"
+    },
+    {
+        "username": "cecool",
+        "email": "string",
+        "height": 0.0,
+        "weight": 0.0,
+        "birthdate": "2023-06-16"
+    }
+]

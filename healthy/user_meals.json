@@ -1,0 +1,74 @@
+[
+    {
+        "username": "ana",
+        "mealdate": "2023-08-08",
+        "meal": {
+            "name": "burger",
+            "calories": 237.7,
+            "serving_size_g": 100,
+            "fat_total_g": 11.5,
+            "fat_saturated_g": 4.7,
+            "protein_g": 15.2,
+            "sodium_mg": 356,
+            "potassium_mg": 137,
+            "cholesterol_mg": 53,
+            "carbohydrates_total_g": 18.1,
+            "fiber_g": 0,
+            "sugar_g": 0
+        }
+    },
+    {
+        "username": "ana",
+        "mealdate": "2023-08-08",
+        "meal": {
+            "name": "fries",
+            "calories": 317.7,
+            "serving_size_g": 100.0,
+            "fat_total_g": 14.8,
+            "fat_saturated_g": 2.3,
+            "protein_g": 3.4,
+            "sodium_mg": 212,
+            "potassium_mg": 124,
+            "cholesterol_mg": 0,
+            "carbohydrates_total_g": 41.1,
+            "fiber_g": 3.8,
+            "sugar_g": 0.3
+        }
+    },
+    {
+        "username": "ana",
+        "mealdate": "2023-06-17",
+        "meal": {
+            "name": "chicken",
+            "calories": 222.6,
+            "serving_size_g": 100.0,
+            "fat_total_g": 12.9,
+            "fat_saturated_g": 3.7,
+            "protein_g": 23.7,
+            "sodium_mg": 72,
+            "potassium_mg": 179,
+            "cholesterol_mg": 92,
+            "carbohydrates_total_g": 0.0,
+            "fiber_g": 0.0,
+            "sugar_g": 0.0
+        }
+    },
+    {
+        "username": "cecool",
+        "mealdate": "2023-06-18",
+        "meal": {
+            "name": "fries",
+            "calories": 317.7,
+            "serving_size_g": 100.0,
+            "fat_total_g": 14.8,
+            "fat_saturated_g": 2.3,
+            "protein_g": 3.4,
+            "sodium_mg": 212,
+            "potassium_mg": 124,
+            "cholesterol_mg": 0,
+            "carbohydrates_total_g": 41.1,
+            "fiber_g": 3.8,
+            "sugar_g": 0.3
+        }
+    }
+]

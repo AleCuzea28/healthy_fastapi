@@ -1,0 +1,102 @@
+Activitatea propriu-zisă de proiectare/realizare de produse program este efectuată în
+cadrul unor colective mici, care se "fac şi se desfac" în funcţie de proiectele care apar.
+Se spune că echipa software de proiectare de proiectare, ideală, este de 5 (până la 7)
+prea puţini pentru a se forma "bisericuţe" (grupuri cu interese proprii şi pe bază de afinităţi) şi
+suficienţi pentru proiecte mai ample. De multe ori însă, echipa trebuie să fie mai mare (dar nu
+mai mult de 12-15, altfel activitatea practic nu mai poate fi coordonată).
+In cele mai multe situaţii, echipa este organizată conform metodei echipei
+programatorului şef (în funcție de companie și specificul organizării, acesta se poate numi
+arhitect-șef, team leader etc.).
+- activitatea este condusă de un proiectant cu experienţă, neapărat cel mai bun
+profesionist din grup (altfel îi vor fi contestate prerogativele de "şef"). Se spune că aplicaţia
+poate fi realizată integral de programatorul şef, dar ar dura prea mult;
+- programatorul şef este secondat continuu de următorul în ierarhia valorică de un
+"ajutor" care trebuie să cunoască şi el proiectul în detaliu pentru a fi în măsură să preia
+conducerea grupului în caz de forţă majoră;
+- în grup va exista un/o "secretar/ă" care trebuie să degreveze cât mai mult pe ceilalţi
+membri ai echipei, de activităţile de rutină: elaborare de devize, acte contabile, o parte a
+documentaţiei tehnice, interfaţa cu alte compartimente ale firmei, o parte a interfeţei cu clientul,
+etc. Acesta este un individ ordonat, care este dispus să preia fără dificultăţi sau adversităţi rolul
+de “sistem informaţional” (sau “nervos”) al echipei, prin aceea că strânge/distribuie informaţie,
+pregăteşte agenda şedinţelor, pune “cap la cap” documentaţiile, bate lumea la cap în legătură
+cu termenele etc.
+- programatorul şef va prelua părţile cele mai dificile şi mai delicate din aplicaţie:
+drivere, mecanisme de acces, interacţiuni în timp real, etc.
+- programatorul şef va distribui sarcinile în cadrul echipei, neapărat în funcţie de
+posibilităţile fiecăruia. Atenţie ! Plata trebuie făcută în funcţie de munca depusă de fiecare.
+- conducătorul echipei trebuie să ştie să catalogheze eforturile echipei şi să închege o
+activitate desfăşurată de mari individualişti cum sunt programatorii buni: cu fiecare va trebui să
+vorbească "pe limba lui";
+- neapărat, programatorul şef va ţine evidenţa şi va controla individual terminarea
+modulelor de program aferente fiecăruia; va determina accelerarea activităţii la programatorii
+rămaşi în urmă;
+- fiecare modul va trebui testat conform uneia din cele două strategii prezentate la
+capitolul 4 (pentru echipă mare sau echipă mică); conducătorul echipei va fi cel care va verifica
+buna funcţionare a modulelor, cu mediile de testare scrise de proiectanţi;
+- susţinerea avizărilor proiectului o va realiza tot "programatorul şef"; de modul cum ştie
+să susţină proiectul depinde de multe ori venitul lui şi al echipei sale;
+Este clar că "programatorul şef" este un "om-orchestră”. Bun profesionist (cel mai bun
+din echipă !), bun organizator, abil psiholog, răbdător şi chiar charismatic... este aproape un
+personaj ideal, o ficţiune !
+Oricum şi voi trebuie să vă străduiţi spre acest personaj ideal !
+ Proiect la IP anul 3 AIA Titular: Stoicu-Tivadar Vasile
+ An univ. 2019-2020 / semestrul 2
+3/18
+2. Organizarea activităţii într-o firmă de software
+Câte case, atâtea obiceiuri, se spune. Firmele care realizează proiecte IT au şi ele
+diverse organizări. Să luăm ca studiu de caz o firmă ipotetică (dar stilul e real !). Aici,
+activitatea se desfăşoară pe colective (15-30 oameni). Câteva colective alcătuiesc o secţie,
+care are preocupări dintr-un domeniu mai restrâns (s. ex. secţii de sisteme SCADA, telematică,
+comenzi numerice etc.). Activitatea secţiilor este coordonată de un director de cercetare. In
+cadrul institutului există mai multe secţii de proiectare şi poate şi o secţie de microproducţie
+(aici se pot realiza unicate sau serii mici de echipamente, pentru aplicaţii dedicate).
+La îndemâna proiectanţilor stau: o bibliotecă cu serviciu propriu de întocmire a
+sintezelor informaţionale, servicii auxiliare (legătorie, copiere, desen etc.), acces la bibliotecile
+de programe ale institutului etc.
+Avizările sunt realizate de consiliul tehnic (un fel de sfat al înţelepţilor care hotăreşte
+dacă proiectul este bun sau nu). Consilierul care se ocupă de un proiect are rolul de a filtra şi a
+evita eventualele paralelisme în activitatea colectivelor, de a ajusta soluţiile tehnice şi de a
+impune tehnici mai productive de proiectare şi eventuala refolosire a modulelor de program din
+bibliotecile de programe ale institutului; şeful de proiect are acces la consilierul desemnat
+pentru proiectul lui, ori de câte îl solicită.
+Un institut de proiectare are o mare capacitate de a realiza proiecte însemnate,
+deoarece concentrează specialişti, experienţă, conexiuni informative, unele servicii pe care o
+firmă mică nu şi le poate permite, unele mijloace tehnice de asemenea inaccesibile unei firme
+mici. De asemenea marca ("faima", credibilitatea) firmei are importanţa ei. Insă o firmă mică
+este mai flexibilă, mai uşor de condus, poate câteodată supravieţui mai uşor şi adapta mai bine
+la cerinţele pieţei, are regia mai mică iar "leneşii" sunt mai uşor de depistat.
+3. Conţinutul specificaţiilor
+Specificaţiile urmăresc descrierea interfeţelor (canalelor de comunicaţie) dintre
+aplicaţia software (văzută ca o cutie neagră) şi mediu. Prin mediu se înţelege mulţimea
+tuturor sistemelor cu care interacţionează aplicaţia. Categorii de astfel de sisteme pot fi:
+• utilizatorul – sau utilizatorii (de aici rezultând necesitatea descrierii interfeţei cu utilizatorul);
+sistemele cu care programul interacţionează (în sensul din teoria sistemelor): procese
+industriale, procese din alte domenii (sisteme complexe de programe, reţele de calculatoare,
+sisteme bancare, sisteme biologice, sisteme de baze de date etc.), alte aplicaţii sau sisteme
+de calcul cu care programul interacţionează, asimilabile acestor sisteme ( în particular chiar
+şi pacienţii din aplicaţiile de informatică medicală);
+• bazele de date, fişierele cu care lucrează aplicaţia (ele pot fi privite ca făcând parte din
+mediu întrucât sunt stocate pe suporturi de memorie externă şi deci conţinutul lor trebuie de
+asemenea specificat);
+• perifericele calculatorului pe care rulează programul (consolă, imprimantă etc. care trebuie
+privite, de asemenea, ca făcând parte din mediu întrucât sunt externe aplicaţiei şi deci
+conţinutul lor informaţional trebuie de asemenea specificat).
+Practic orice „intră” sau „iese” din aplicaţie trebuie descris în cadrul specificaţiilor, cu
+explicitarea conţinutului şi formei de prezentare, astfel încât proiectantul, clientul şi utilizatorul
+final al aplicaţiei să poată să cunoască funcţionarea aplicaţiei, atât la nivel de funcţiuni cât şi
+la nivel formal (aspectul interfeţelor). Descrierea trebuie realizată astfel încât:
+• pe tot parcursul proiectării să se poată urmări în permanenţă, ca obiectiv esenţial,
+concordanţa dintre specificaţii şi ceea ce se obţine;
+• să se poată valida produsul obţinut prin verificarea în cele mai mici detalii a concordanţei
+dintre acesta şi specificaţii;
+• clientul şi utilizatorul final să poată să înţeleagă funcţionarea şi să cerceteze aspectul
+interfeţelor şi interconectării cu alte sisteme înainte de a începe proiectarea propriu-zisă,
+pentru a valida modelul dezirabil care să se constituie ulterior în obiectiv pentru proiectare
+ Proiect la IP anul 3 AIA Titular: Stoicu-Tivadar Vasile
+ An univ. 2019-2020 / semestrul 2
+4/18
+• proiectanţii să poată să continue modelarea şi proiectarea sistemului dorit, prin împărţirea
+în subsisteme, astfel încât intrările şi ieşirile să fie definite exact, plecând de la cele ale
+aplicaţiei văzute ca o cutie neagră;
+• proiectanţii să poată să abordeze în paralel şi proiectarea altor sisteme cu care aplicaţia
+interacţionează, în condiţiile în care “canalele de comunicaţie” sunt definite riguros.
