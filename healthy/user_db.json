@@ -19,5 +19,12 @@
         "height": 1.5,
         "weight": 80.0,
         "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Ioana Miha",
+        "email": "imi@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
     }
 ]
