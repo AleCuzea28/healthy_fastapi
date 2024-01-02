@@ -1,0 +1,8 @@
+2024-01-01 21:49:03,781 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:52:54,012 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:53:22,711 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:54:10,742 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:54:45,896 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:55:47,544 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:56:25,131 _ DEBUG _ asyncio _ Using selector: KqueueSelector
+2024-01-01 21:57:56,261 _ DEBUG _ asyncio _ Using selector: KqueueSelector

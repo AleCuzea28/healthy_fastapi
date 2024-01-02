@@ -8,6 +8,7 @@ import numpy as np
 from io import BytesIO
 from fastapi import Response
 from fastapi.responses import FileResponse
+import re
 
 
 class DateEncoder(json.JSONEncoder):
@@ -33,10 +34,20 @@ class UserFile:
 
         data.append(user.dict())
 
+        # regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b"
+
+        # if re.fullmatch(regex, user.email):
+
         with open("healthy//user_db.json", "w") as json_file:
             json.dump(data, json_file, indent=4, cls=DateEncoder)
 
-        return {"message": "User added"}
+        return {"message": "User " + user.username + " added successfully."}
+
+        # else:
+        #     return JSONResponse(
+        #         status_code=405,
+        #         content={"message": "Invalid email!"},
+        #     )
 
     # ----------------> task 2
     def get_user_db(self):
@@ -149,7 +160,7 @@ class UserFile:
         for user in data:
             if user["username"] == username:
                 mealdate_object = datetime.datetime.strptime(
-                    user["mealdate"], "%Y-%d-%m"
+                    user["mealdate"], "%Y-%m-%d"
                 ).date()
 
                 if mealdate_object > start_date and mealdate_object < end_date:
@@ -185,31 +196,43 @@ class UserFile:
         with open("healthy//user_meals.json") as json_file:
             data = json.load(json_file)
 
+        day = datetime.date.today().strftime("%Y-%m-%d")
+
         for user_meal in data:
-            if (
-                user_meal["username"] == username
-                and user_meal["meal"]["name"] == mealname_old
-            ):
-                day = datetime.date.today().strftime("%Y-%m-%d")
-                if user_meal["mealdate"] == day:
-                    api_url = "https://api.api-ninjas.com/v1/nutrition?query={}".format(
-                        mealname_new
-                    )
-                    response = requests.get(
-                        api_url,
-                        headers={
-                            "X-Api-Key": "MQbXLgW3YGa/cFMFC63ipg==diQGQcOQNBLJZ26z"
-                        },
-                    )
-                    if response.status_code == requests.codes.ok:
-                        # leng = len(response.text) - 1
-                        new_meal = json.loads(response.text[1 : len(response.text) - 1])
-                        user_meal.update({"meal": new_meal})
-                else:
-                    return JSONResponse(
-                        status_code=405,
-                        content={"message": "You can only update meals from today!"},
-                    )
+            if user_meal["mealdate"] == day:
+                if (
+                    user_meal["username"] == username
+                    and user_meal["meal"]["name"] == mealname_old
+                ):
+                    day = datetime.date.today().strftime("%Y-%m-%d")
+                    if user_meal["mealdate"] == day:
+                        api_url = (
+                            "https://api.api-ninjas.com/v1/nutrition?query={}".format(
+                                mealname_new
+                            )
+                        )
+                        response = requests.get(
+                            api_url,
+                            headers={
+                                "X-Api-Key": "MQbXLgW3YGa/cFMFC63ipg==diQGQcOQNBLJZ26z"
+                            },
+                        )
+                        if response.status_code == requests.codes.ok:
+                            # leng = len(response.text) - 1
+                            new_meal = json.loads(
+                                response.text[1 : len(response.text) - 1]
+                            )
+                            user_meal.update({"meal": new_meal})
+                    else:
+                        return JSONResponse(
+                            status_code=405,
+                            content={
+                                "message": "You can only update meals from today!"
+                                + day
+                                + "You date is "
+                                + user_meal["mealdate"]
+                            },
+                        )
 
         with open("healthy//user_meals.json", "w") as json_file:
             json.dump(data, json_file, indent=4)
@@ -233,7 +256,25 @@ class UserFile:
                 if mealdate_object == day:
                     meals_given_day.append(user)
 
-        return meals_given_day
+        dic_final = {}
+
+        for dictionary in meals_given_day:
+            for key, value in dictionary["meal"].items():
+                if key not in dic_final:
+                    dic_final[key] = [value]
+                else:
+                    dic_final[key].append(value)
+
+        sum_values = {}
+
+        # Iterăm prin chei și valori în dictionarul de valori
+        for key, values in dic_final.items():
+            # Verificăm dacă valorile sunt numerice
+            if all(isinstance(val, (int, float)) for val in values):
+                # Calculăm suma valorilor pentru cheia curentă și o adăugăm în dicționarul de sume
+                sum_values[key] = sum(values)
+
+        return sum_values
 
     # ----------------> task 11
     def get_chart(self, username: str, start: datetime.date, end: datetime.date):

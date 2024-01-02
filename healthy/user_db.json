@@ -7,10 +7,17 @@
         "birthdate": "1990-01-01"
     },
     {
-        "username": "cecool",
-        "email": "string",
-        "height": 0.0,
-        "weight": 0.0,
-        "birthdate": "2023-06-16"
+        "username": "Meri",
+        "email": "meri@gmail.com",
+        "height": 1.4,
+        "weight": 50.0,
+        "birthdate": "2000-03-01"
+    },
+    {
+        "username": "Ioana Popa",
+        "email": "ipopa@gmail.com",
+        "height": 1.5,
+        "weight": 80.0,
+        "birthdate": "2002-01-01"
     }
 ]
