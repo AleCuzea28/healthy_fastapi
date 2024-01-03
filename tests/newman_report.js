@@ -1,6 +1,6 @@
-const newman = require("newman");
+import { run } from "newman";
 
-newman.run({
+run({
   collection: "./tests.postman_collection2.json", // Collection URL from a public link or the Postman API can also be used
   reporters: ["htmlextra"],
   iterationCount: 1,
@@ -9,7 +9,7 @@ newman.run({
     htmlextra: {
       // export: './report.html',
       // template: './template.hbs'
-      logs: true,
+      //   logs: true,
       // showOnlyFails: true,
       // noSyntaxHighlighting: true,
       // testPaging: true,

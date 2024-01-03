@@ -26,5 +26,61 @@
         "height": 1.5,
         "weight": 60.0,
         "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Elisa Popa",
+        "email": "epopa@gmail.com",
+        "height": 1.5,
+        "weight": 80.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Elisa Popa",
+        "email": "epopa@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Ioana Popa",
+        "email": "ipopa@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Ioana Popa",
+        "email": "ipopa@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Ioana Popa",
+        "email": "ipopa@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Ioana Popa",
+        "email": "ipopa@gmail.com",
+        "height": 1.5,
+        "weight": 60.0,
+        "birthdate": "2002-01-01"
+    },
+    {
+        "username": "Iliana",
+        "email": "iliana@gmail.com",
+        "height": 1.6,
+        "weight": 70.0,
+        "birthdate": "1998-11-21"
+    },
+    {
+        "username": "Iliana",
+        "email": "iliana@gmail.com",
+        "height": 1.6,
+        "weight": 70.0,
+        "birthdate": "1998-11-21"
     }
 ]
