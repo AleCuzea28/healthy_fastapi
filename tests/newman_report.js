@@ -4,7 +4,6 @@ run({
   collection: "./tests.postman_collection2.json", // Collection URL from a public link or the Postman API can also be used
   reporters: ["htmlextra"],
   iterationCount: 1,
-  environment: "./workspace.postman_globals.json",
   reporter: {
     htmlextra: {
       // export: './report.html',

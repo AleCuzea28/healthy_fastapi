@@ -464,3 +464,10 @@
 2024-01-03 11:51:49,152 _ DEBUG _ urllib3.connectionpool _ https://api.api-ninjas.com:443 "GET /v1/nutrition?query=taco HTTP/1.1" 200 248
 2024-01-03 11:51:49,201 _ DEBUG _ urllib3.connectionpool _ Starting new HTTPS connection (1): api.api-ninjas.com:443
 2024-01-03 11:51:49,591 _ DEBUG _ urllib3.connectionpool _ https://api.api-ninjas.com:443 "GET /v1/nutrition?query=burger HTTP/1.1" 200 252
+2024-01-03 14:38:39,027 _ INFO _ root _ Mesajjjjj
+2024-01-03 14:45:23,347 _ DEBUG _ urllib3.connectionpool _ Starting new HTTPS connection (1): api.api-ninjas.com:443
+2024-01-03 14:45:24,238 _ DEBUG _ urllib3.connectionpool _ https://api.api-ninjas.com:443 "GET /v1/nutrition?query=pasta HTTP/1.1" 200 245
+2024-01-03 14:45:24,291 _ DEBUG _ urllib3.connectionpool _ Starting new HTTPS connection (1): api.api-ninjas.com:443
+2024-01-03 14:45:25,018 _ DEBUG _ urllib3.connectionpool _ https://api.api-ninjas.com:443 "GET /v1/nutrition?query=taco HTTP/1.1" 200 248
+2024-01-03 14:45:25,085 _ DEBUG _ urllib3.connectionpool _ Starting new HTTPS connection (1): api.api-ninjas.com:443
+2024-01-03 14:45:25,481 _ DEBUG _ urllib3.connectionpool _ https://api.api-ninjas.com:443 "GET /v1/nutrition?query=burger HTTP/1.1" 200 252

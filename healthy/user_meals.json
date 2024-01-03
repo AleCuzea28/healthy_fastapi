@@ -1,542 +1,434 @@
 [
-    {
-        "username": "ana",
-        "mealdate": "2023-08-08",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0,
-            "sugar_g": 0
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2023-08-08",
-        "meal": {
-            "name": "fries",
-            "calories": 317.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 14.8,
-            "fat_saturated_g": 2.3,
-            "protein_g": 3.4,
-            "sodium_mg": 212,
-            "potassium_mg": 124,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 41.1,
-            "fiber_g": 3.8,
-            "sugar_g": 0.3
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2023-06-17",
-        "meal": {
-            "name": "chicken",
-            "calories": 222.6,
-            "serving_size_g": 100.0,
-            "fat_total_g": 12.9,
-            "fat_saturated_g": 3.7,
-            "protein_g": 23.7,
-            "sodium_mg": 72,
-            "potassium_mg": 179,
-            "cholesterol_mg": 92,
-            "carbohydrates_total_g": 0.0,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "cecool",
-        "mealdate": "2023-06-18",
-        "meal": {
-            "name": "fries",
-            "calories": 317.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 14.8,
-            "fat_saturated_g": 2.3,
-            "protein_g": 3.4,
-            "sodium_mg": 212,
-            "potassium_mg": 124,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 41.1,
-            "fiber_g": 3.8,
-            "sugar_g": 0.3
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2024-01-01",
-        "meal": {
-            "name": "fries",
-            "calories": 317.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 14.8,
-            "fat_saturated_g": 2.3,
-            "protein_g": 3.4,
-            "sodium_mg": 212,
-            "potassium_mg": 124,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 41.1,
-            "fiber_g": 3.8,
-            "sugar_g": 0.3
-        }
-    },
-    {
-        "username": "ana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "cupcakes",
-            "calories": 379.2,
-            "serving_size_g": 100.0,
-            "fat_total_g": 20.3,
-            "fat_saturated_g": 6.0,
-            "protein_g": 3.5,
-            "sodium_mg": 341,
-            "potassium_mg": 136,
-            "cholesterol_mg": 21,
-            "carbohydrates_total_g": 52.2,
-            "fiber_g": 2.2,
-            "sugar_g": 40.0
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-01",
-        "meal": {
-            "name": "pizza",
-            "calories": 262.9,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.8,
-            "fat_saturated_g": 4.5,
-            "protein_g": 11.4,
-            "sodium_mg": 587,
-            "potassium_mg": 217,
-            "cholesterol_mg": 16,
-            "carbohydrates_total_g": 32.9,
-            "fiber_g": 2.3,
-            "sugar_g": 3.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "sushi",
-            "calories": 130.9,
-            "serving_size_g": 100.0,
-            "fat_total_g": 6.9,
-            "fat_saturated_g": 1.1,
-            "protein_g": 4.2,
-            "sodium_mg": 263,
-            "potassium_mg": 119,
-            "cholesterol_mg": 8,
-            "carbohydrates_total_g": 13.9,
-            "fiber_g": 1.4,
-            "sugar_g": 3.3
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "tomato",
-            "calories": 18.2,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.2,
-            "fat_saturated_g": 0.0,
-            "protein_g": 0.9,
-            "sodium_mg": 4,
-            "potassium_mg": 23,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 3.9,
-            "fiber_g": 1.2,
-            "sugar_g": 2.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "taco",
-            "calories": 205.3,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.6,
-            "fat_saturated_g": 4.2,
-            "protein_g": 9.2,
-            "sodium_mg": 569,
-            "potassium_mg": 166,
-            "cholesterol_mg": 24,
-            "carbohydrates_total_g": 20.0,
-            "fiber_g": 2.9,
-            "sugar_g": 1.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Elisa Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Elisa Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Elisa Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Ioana Popa",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "pasta",
-            "calories": 156.0,
-            "serving_size_g": 100.0,
-            "fat_total_g": 0.9,
-            "fat_saturated_g": 0.2,
-            "protein_g": 5.7,
-            "sodium_mg": 1,
-            "potassium_mg": 58,
-            "cholesterol_mg": 0,
-            "carbohydrates_total_g": 31.3,
-            "fiber_g": 1.8,
-            "sugar_g": 0.6
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-03",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-03",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "taco",
-            "calories": 205.3,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.6,
-            "fat_saturated_g": 4.2,
-            "protein_g": 9.2,
-            "sodium_mg": 569,
-            "potassium_mg": 166,
-            "cholesterol_mg": 24,
-            "carbohydrates_total_g": 20.0,
-            "fiber_g": 2.9,
-            "sugar_g": 1.6
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-03",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "taco",
-            "calories": 205.3,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.6,
-            "fat_saturated_g": 4.2,
-            "protein_g": 9.2,
-            "sodium_mg": 569,
-            "potassium_mg": 166,
-            "cholesterol_mg": 24,
-            "carbohydrates_total_g": 20.0,
-            "fiber_g": 2.9,
-            "sugar_g": 1.6
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-03",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "taco",
-            "calories": 205.3,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.6,
-            "fat_saturated_g": 4.2,
-            "protein_g": 9.2,
-            "sodium_mg": 569,
-            "potassium_mg": 166,
-            "cholesterol_mg": 24,
-            "carbohydrates_total_g": 20.0,
-            "fiber_g": 2.9,
-            "sugar_g": 1.6
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-03",
-        "meal": {
-            "name": "burger",
-            "calories": 237.7,
-            "serving_size_g": 100.0,
-            "fat_total_g": 11.5,
-            "fat_saturated_g": 4.7,
-            "protein_g": 15.2,
-            "sodium_mg": 356,
-            "potassium_mg": 137,
-            "cholesterol_mg": 53,
-            "carbohydrates_total_g": 18.1,
-            "fiber_g": 0.0,
-            "sugar_g": 0.0
-        }
-    },
-    {
-        "username": "Iliana",
-        "mealdate": "2024-01-02",
-        "meal": {
-            "name": "taco",
-            "calories": 205.3,
-            "serving_size_g": 100.0,
-            "fat_total_g": 9.6,
-            "fat_saturated_g": 4.2,
-            "protein_g": 9.2,
-            "sodium_mg": 569,
-            "potassium_mg": 166,
-            "cholesterol_mg": 24,
-            "carbohydrates_total_g": 20.0,
-            "fiber_g": 2.9,
-            "sugar_g": 1.6
-        }
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-01",
+    "meal": {
+      "name": "pizza",
+      "calories": 262.9,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.8,
+      "fat_saturated_g": 4.5,
+      "protein_g": 11.4,
+      "sodium_mg": 587,
+      "potassium_mg": 217,
+      "cholesterol_mg": 16,
+      "carbohydrates_total_g": 32.9,
+      "fiber_g": 2.3,
+      "sugar_g": 3.6
     }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "sushi",
+      "calories": 130.9,
+      "serving_size_g": 100.0,
+      "fat_total_g": 6.9,
+      "fat_saturated_g": 1.1,
+      "protein_g": 4.2,
+      "sodium_mg": 263,
+      "potassium_mg": 119,
+      "cholesterol_mg": 8,
+      "carbohydrates_total_g": 13.9,
+      "fiber_g": 1.4,
+      "sugar_g": 3.3
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "tomato",
+      "calories": 18.2,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.2,
+      "fat_saturated_g": 0.0,
+      "protein_g": 0.9,
+      "sodium_mg": 4,
+      "potassium_mg": 23,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 3.9,
+      "fiber_g": 1.2,
+      "sugar_g": 2.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Elisa Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Elisa Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Elisa Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Ioana Popa",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "pasta",
+      "calories": 156.0,
+      "serving_size_g": 100.0,
+      "fat_total_g": 0.9,
+      "fat_saturated_g": 0.2,
+      "protein_g": 5.7,
+      "sodium_mg": 1,
+      "potassium_mg": 58,
+      "cholesterol_mg": 0,
+      "carbohydrates_total_g": 31.3,
+      "fiber_g": 1.8,
+      "sugar_g": 0.6
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-03",
+    "meal": {
+      "name": "burger",
+      "calories": 237.7,
+      "serving_size_g": 100.0,
+      "fat_total_g": 11.5,
+      "fat_saturated_g": 4.7,
+      "protein_g": 15.2,
+      "sodium_mg": 356,
+      "potassium_mg": 137,
+      "cholesterol_mg": 53,
+      "carbohydrates_total_g": 18.1,
+      "fiber_g": 0.0,
+      "sugar_g": 0.0
+    }
+  },
+  {
+    "username": "Iliana",
+    "mealdate": "2024-01-02",
+    "meal": {
+      "name": "taco",
+      "calories": 205.3,
+      "serving_size_g": 100.0,
+      "fat_total_g": 9.6,
+      "fat_saturated_g": 4.2,
+      "protein_g": 9.2,
+      "sodium_mg": 569,
+      "potassium_mg": 166,
+      "cholesterol_mg": 24,
+      "carbohydrates_total_g": 20.0,
+      "fiber_g": 2.9,
+      "sugar_g": 1.6
+    }
+  }
 ]
